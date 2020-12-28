@@ -2,8 +2,8 @@ const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 const colors = ["#D2F6FC", "#7984EE", "#F9E3A2", "#23374D", "#DB1D4B"];
 const cursor = {
-  x: -100,
-  y: -100
+  x: window.innerWidth / 2,
+  y: window.innerHeight / 2
 };
 const cursorRange = 50;
 const totalBalls = 1000;
